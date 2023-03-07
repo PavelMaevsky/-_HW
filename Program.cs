@@ -25,3 +25,4 @@ else
         Console.WriteLine($"min is first number: {a}");
     }
 }
+
