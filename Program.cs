@@ -52,3 +52,19 @@ else
     }
 }
 */
+
+
+/*
+//Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным
+*/
+Console.Write("Input number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if(number % 2 == 0)
+{
+    Console.WriteLine("TRUE - Your number is even");
+}
+else
+{
+    Console.WriteLine("FALSE - Your number is odd");
+}
