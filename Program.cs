@@ -72,7 +72,7 @@ else
 */
 
 /*
-Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+//Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
 Console.Write("Input pozitive number: ");
 int number = Convert.ToInt32(Console.ReadLine());
@@ -83,4 +83,32 @@ while (current <= number)
 Console.Write(current + " ");
 current += 2;
 }
+*/
+
+/*
+//(сделал условие на отрицательное число)
+//Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+Console.Write("Input number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number > 0)
+{
+    int current = 2;
+    while (current <= number)
+    {
+    Console.Write(current + " ");
+    current += 2;
+    }
+}
+else
+{
+    int current = 0; //ноль является четным числом, а нам надо вывести все четные от 1 до N, если N отрицательное, тогда 0 включаем в список вывода
+        while (current >= number)
+    {
+    Console.Write(current + " ");
+    current -= 2;
+    }
+}
+
 */
